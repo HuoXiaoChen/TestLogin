@@ -62,11 +62,11 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="16dp"
+            android:layout_width="18dp"
             android:layout_height="18dp"
             android:layout_marginStart="25dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@mipmap/icon_shouji" />
+            app:srcCompat="@mipmap/icon_mima" />
 
         <EditText
             android:id="@+id/edtPaw2"
@@ -106,11 +106,11 @@
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="16dp"
+            android:layout_width="18dp"
             android:layout_height="18dp"
             android:layout_marginStart="25dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@mipmap/icon_shouji" />
+            app:srcCompat="@mipmap/icon_mima" />
 
         <EditText
             android:id="@+id/edtPaw"
@@ -150,11 +150,11 @@
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="16dp"
-            android:layout_height="18dp"
+            android:layout_width="18dp"
+            android:layout_height="14dp"
             android:layout_marginStart="25dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@mipmap/icon_shouji" />
+            app:srcCompat="@mipmap/icon_info" />
 
         <EditText
             android:id="@+id/edtInfo"

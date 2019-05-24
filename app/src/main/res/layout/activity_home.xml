@@ -75,6 +75,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView9" />
 
     <TextView
+        android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -136,8 +137,8 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="0dp"
-        android:layout_height="7dp"
+        android:layout_width="8dp"
+        android:layout_height="11dp"
         android:layout_marginStart="8dp"
         android:text="个"
         android:textColor="#ffffffff"
@@ -201,14 +202,115 @@
         app:srcCompat="@mipmap/group2" />
 
     <TextView
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
-        android:layout_height="15dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="3dp"
         android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
         android:text="安保工单"
         android:textColor="#ff333333"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView13"
         app:layout_constraintStart_toStartOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:text="在线报事"
+        android:textColor="#ff333333"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:text="巡查任务"
+        android:textColor="#ff333333"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:text="巡查任务管理"
+        android:textColor="#ff333333"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="78dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:text="紧急任务"
+        android:textColor="#ff333333"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@mipmap/group" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@mipmap/group" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="9dp"
+        android:text="紧急调度任务"
+        android:textColor="#ff333333"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView19"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="9dp"
+        android:text="警务调度任务"
+        android:textColor="#ff333333"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
 
 </android.support.constraint.ConstraintLayout>

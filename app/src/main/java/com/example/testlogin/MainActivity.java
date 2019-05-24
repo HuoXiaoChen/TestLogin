@@ -8,10 +8,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+/*
+*
+*   登录
+* */
 public class MainActivity extends AppCompatActivity {
 
     private TextView mForgetPawBtn;
-    private EditText mEdtName;
     private EditText mEdtPaw;
     private Button mLoginBtn;
     private TextView mPawError;
@@ -22,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initView();
-
+        //登陆按钮曹祖
         ToHomeActivity();
-
+        //忘记密码操作
         ToForgetPawActivity();
     }
 
@@ -34,14 +37,12 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
         mForgetPawBtn = findViewById(R.id.forgetPawBtn);
         mLoginBtn = findViewById(R.id.loginBtn);
-        mEdtName = findViewById(R.id.edtName);
         mEdtPaw = findViewById(R.id.edtPaw);
         mPawError = findViewById(R.id.pawerror);
         mPawError.setVisibility(View.GONE);
     }
 
     private void ToHomeActivity() {
-
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
